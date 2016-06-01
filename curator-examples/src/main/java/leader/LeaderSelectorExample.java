@@ -60,7 +60,7 @@ public class LeaderSelectorExample
                 example.start();
             }
 
-            System.out.println("Press enter/return to quit\n");
+            System.out.println("1. Press enter/return to quit\n");
             new BufferedReader(new InputStreamReader(System.in)).readLine();
         }
         finally
