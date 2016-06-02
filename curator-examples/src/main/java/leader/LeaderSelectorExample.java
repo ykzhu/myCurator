@@ -54,10 +54,6 @@ public class LeaderSelectorExample
                 ExampleClient       example = new ExampleClient(client, PATH, "Client #" + i);
                 examples.add(example);
 
-
-                
-                
-                
                 client.start();
                 example.start();
             }
