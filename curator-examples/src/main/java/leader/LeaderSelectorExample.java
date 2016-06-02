@@ -54,14 +54,11 @@ public class LeaderSelectorExample
                 ExampleClient       example = new ExampleClient(client, PATH, "Client #" + i);
                 examples.add(example);
 
-
                 client.start();
                 example.start();
             }
 
             System.out.println("6.Press enter/return to quit\n");
-            
-            
             new BufferedReader(new InputStreamReader(System.in)).readLine();
         }
         finally
